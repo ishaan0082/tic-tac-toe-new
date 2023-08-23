@@ -170,5 +170,5 @@ else if( ((_1x3 === "./x.png")&&(_2x2 === "./x.png")&&(_3x1 === "./x.png")) || (
 function reset(){
     chance = 0;
     mode = false;
-    $(".game-over").text("Press Enter to Restart Game");
+    $(".game-over").text("Click to Restart Game");
 }
