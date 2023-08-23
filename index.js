@@ -2,7 +2,7 @@ var chance = 0,mode = false;
 //----------------------------------------------Turning On the Game--------------------------------------------
 
 $("html").keydown(function (e) { 
-    if(e.key === "Enter"){
+    if(e.key === "Enter" && mode == false){
     mode = true;
     $(".block").html("");
     $(".game-over").text("");
