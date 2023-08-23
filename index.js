@@ -1,13 +1,21 @@
 var chance = 0,mode = false;
 //----------------------------------------------Turning On the Game--------------------------------------------
 
-$("html").keydown(function (e) { 
-    if(e.key === "Enter" && mode == false){
+$(".game_text").click(function () { 
+    if(mode == false){
     mode = true;
     $(".block").html("");
     $(".game-over").text("");
     $(".game_text").text("Player 1");
-    console.log(e.key);
+    }
+});
+
+$(".game-over").click(function () { 
+    if(mode == false){
+    mode = true;
+    $(".block").html("");
+    $(".game-over").text("");
+    $(".game_text").text("Player 1");
     }
 });
 
